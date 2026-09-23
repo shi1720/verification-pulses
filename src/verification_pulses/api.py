@@ -4,6 +4,7 @@ import asyncio
 import hashlib
 import json
 import os
+import subprocess
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,6 +30,7 @@ class Recorder:
         self.client = httpx.AsyncClient(timeout=90)
         self.calls = len(self.saved)
         self.tokens = 0
+        self.revision = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
 
     async def close(self):
         await self.client.aclose()
@@ -38,8 +40,6 @@ class Recorder:
             f.write(json.dumps(r, sort_keys=True) + "\n")
 
     async def call(self, rid: str, model: str, messages: list, metadata: dict):
-        if rid in self.saved:
-            return self.saved[rid]
         payload = {
             "model": model, "messages": messages, "temperature": 0.7,
             "max_completion_tokens": 40, "store": False,
@@ -48,10 +48,14 @@ class Recorder:
                     "type": "object", "properties": {"answer": {"type": "string", "enum": ["A", "B"]}},
                     "required": ["answer"], "additionalProperties": False}}}}
         sha = hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
+        if rid in self.saved:
+            if self.saved[rid]["request_sha256"] != sha:
+                raise RuntimeError("Cached request differs from current request: " + rid)
+            return self.saved[rid]
         async with self.sem:
             for attempt in range(3):
                 row = {"request_id": rid, "request_sha256": sha, "request": payload,
-                       "metadata": metadata, "attempt": attempt,
+                       "metadata": metadata, "attempt": attempt, "git_revision": self.revision,
                        "started_utc": datetime.now(timezone.utc).isoformat()}
                 start = time.monotonic()
                 try:
