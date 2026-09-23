@@ -33,8 +33,11 @@ application or eligibility claim is part of this submission.
 
 Portable LaTeX source and metadata are prepared. A new draft was opened in the
 author's existing account, with Mathematics / Dynamical Systems selected.
-The submission agreement and irrevocable license choice require author action
-before the portal permits the upload stage. No paper files have been uploaded
-and no arXiv identifier has been assigned to this work.
+Following the author's explicit approval, the submission agreement was accepted
+and the arXiv perpetual, non-exclusive distribution license was selected.
+The portal then required endorsement for math.DS. arXiv has emailed the author
+an endorsement code; endorsement by an eligible researcher is still required.
+No paper files have been uploaded, no final submission has been received, and
+no public arXiv identifier has been assigned to this work.
 
 The repository preserves all other existing submissions unchanged.
