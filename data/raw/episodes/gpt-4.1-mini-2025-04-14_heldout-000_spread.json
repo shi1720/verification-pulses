@@ -1,0 +1,2472 @@
+{
+  "task_id": "heldout-000",
+  "domain": "feature",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "schedule": "spread",
+  "n": 16,
+  "initial_wrong": 14,
+  "steps": 128,
+  "checks": 12,
+  "seed": 910000,
+  "wrong_counts": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    13,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    14,
+    14,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    14,
+    14,
+    14,
+    14,
+    13,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    14,
+    14,
+    13,
+    14,
+    14,
+    14,
+    14,
+    14,
+    15,
+    16,
+    16,
+    16,
+    16,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    14,
+    14,
+    14,
+    14,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    14,
+    14,
+    14,
+    14,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    12,
+    12,
+    12,
+    12,
+    12,
+    13,
+    14,
+    14,
+    14,
+    13,
+    12,
+    12,
+    11,
+    10,
+    11,
+    12
+  ],
+  "updates": [
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 0,
+      "target": 12,
+      "peer_ids": [
+        8,
+        2,
+        6
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:0",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 1,
+      "target": 8,
+      "peer_ids": [
+        9,
+        1,
+        12
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:1",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 2,
+      "target": 4,
+      "peer_ids": [
+        13,
+        8,
+        0
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:2",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 3,
+      "target": 5,
+      "peer_ids": [
+        2,
+        0,
+        10
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:3",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 4,
+      "target": 1,
+      "peer_ids": [
+        3,
+        15,
+        9
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:4",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 5,
+      "target": 11,
+      "peer_ids": [
+        7,
+        8,
+        14
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 6,
+      "target": 15,
+      "peer_ids": [
+        8,
+        0,
+        6
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:6",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 7,
+      "target": 15,
+      "peer_ids": [
+        8,
+        6,
+        2
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:7",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 8,
+      "target": 10,
+      "peer_ids": [
+        14,
+        6,
+        15
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:8",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 9,
+      "target": 0,
+      "peer_ids": [
+        8,
+        15,
+        10
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:9",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 10,
+      "target": 15,
+      "peer_ids": [
+        10,
+        11,
+        7
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:10",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 11,
+      "target": 9,
+      "peer_ids": [
+        4,
+        6,
+        15
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:11",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 12,
+      "target": 12,
+      "peer_ids": [
+        15,
+        9,
+        1
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:12",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 13,
+      "target": 4,
+      "peer_ids": [
+        15,
+        13,
+        4
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:13",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 14,
+      "target": 6,
+      "peer_ids": [
+        12,
+        1,
+        12
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:14",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 15,
+      "target": 0,
+      "peer_ids": [
+        14,
+        5,
+        8
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:15",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 16,
+      "target": 6,
+      "peer_ids": [
+        0,
+        5,
+        9
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 17,
+      "target": 5,
+      "peer_ids": [
+        3,
+        6,
+        10
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:17",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 18,
+      "target": 14,
+      "peer_ids": [
+        10,
+        2,
+        8
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:18",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 19,
+      "target": 14,
+      "peer_ids": [
+        7,
+        11,
+        5
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:19",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 20,
+      "target": 10,
+      "peer_ids": [
+        7,
+        15,
+        5
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:20",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 21,
+      "target": 13,
+      "peer_ids": [
+        1,
+        12,
+        10
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:21",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 22,
+      "target": 15,
+      "peer_ids": [
+        9,
+        15,
+        3
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:22",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 23,
+      "target": 12,
+      "peer_ids": [
+        8,
+        1,
+        8
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:23",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 24,
+      "target": 11,
+      "peer_ids": [
+        0,
+        15,
+        2
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:24",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 25,
+      "target": 14,
+      "peer_ids": [
+        14,
+        10,
+        12
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:25",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 26,
+      "target": 10,
+      "peer_ids": [
+        2,
+        4,
+        14
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 27,
+      "target": 5,
+      "peer_ids": [
+        0,
+        5,
+        12
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:27",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 28,
+      "target": 15,
+      "peer_ids": [
+        12,
+        1,
+        10
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:28",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 29,
+      "target": 7,
+      "peer_ids": [
+        15,
+        8,
+        3
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:29",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 30,
+      "target": 13,
+      "peer_ids": [
+        5,
+        11,
+        5
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:30",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 31,
+      "target": 11,
+      "peer_ids": [
+        2,
+        0,
+        4
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:31",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 32,
+      "target": 3,
+      "peer_ids": [
+        7,
+        7,
+        6
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:32",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 33,
+      "target": 6,
+      "peer_ids": [
+        13,
+        10,
+        0
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:33",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 34,
+      "target": 14,
+      "peer_ids": [
+        12,
+        12,
+        2
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:34",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 35,
+      "target": 4,
+      "peer_ids": [
+        15,
+        13,
+        7
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:35",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 36,
+      "target": 4,
+      "peer_ids": [
+        0,
+        7,
+        1
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:36",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 37,
+      "target": 5,
+      "peer_ids": [
+        2,
+        8,
+        6
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 38,
+      "target": 10,
+      "peer_ids": [
+        4,
+        3,
+        14
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:38",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 39,
+      "target": 13,
+      "peer_ids": [
+        7,
+        0,
+        10
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:39",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 40,
+      "target": 12,
+      "peer_ids": [
+        14,
+        14,
+        3
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:40",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 41,
+      "target": 10,
+      "peer_ids": [
+        9,
+        1,
+        12
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:41",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 42,
+      "target": 7,
+      "peer_ids": [
+        6,
+        7,
+        3
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:42",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 43,
+      "target": 15,
+      "peer_ids": [
+        11,
+        11,
+        3
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:43",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 44,
+      "target": 15,
+      "peer_ids": [
+        12,
+        14,
+        5
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:44",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 45,
+      "target": 15,
+      "peer_ids": [
+        3,
+        3,
+        1
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:45",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 46,
+      "target": 8,
+      "peer_ids": [
+        11,
+        12,
+        14
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:46",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 47,
+      "target": 10,
+      "peer_ids": [
+        10,
+        4,
+        13
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:47",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 48,
+      "target": 13,
+      "peer_ids": [
+        6,
+        5,
+        0
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 49,
+      "target": 1,
+      "peer_ids": [
+        13,
+        15,
+        12
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:49",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 50,
+      "target": 4,
+      "peer_ids": [
+        2,
+        10,
+        10
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:50",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 51,
+      "target": 3,
+      "peer_ids": [
+        13,
+        10,
+        8
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:51",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 52,
+      "target": 1,
+      "peer_ids": [
+        0,
+        0,
+        14
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:52",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 53,
+      "target": 6,
+      "peer_ids": [
+        9,
+        8,
+        13
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:53",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 54,
+      "target": 8,
+      "peer_ids": [
+        8,
+        5,
+        7
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:54",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 55,
+      "target": 4,
+      "peer_ids": [
+        0,
+        13,
+        1
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:55",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 56,
+      "target": 2,
+      "peer_ids": [
+        3,
+        2,
+        3
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:56",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 57,
+      "target": 11,
+      "peer_ids": [
+        7,
+        12,
+        11
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:57",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 58,
+      "target": 14,
+      "peer_ids": [
+        8,
+        15,
+        8
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 59,
+      "target": 13,
+      "peer_ids": [
+        9,
+        4,
+        3
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:59",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 60,
+      "target": 8,
+      "peer_ids": [
+        6,
+        10,
+        14
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:60",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 61,
+      "target": 7,
+      "peer_ids": [
+        7,
+        2,
+        8
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:61",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 62,
+      "target": 8,
+      "peer_ids": [
+        13,
+        14,
+        3
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:62",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 63,
+      "target": 10,
+      "peer_ids": [
+        13,
+        9,
+        14
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:63",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 64,
+      "target": 5,
+      "peer_ids": [
+        12,
+        5,
+        1
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:64",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 65,
+      "target": 14,
+      "peer_ids": [
+        9,
+        10,
+        7
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:65",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 66,
+      "target": 4,
+      "peer_ids": [
+        1,
+        3,
+        5
+      ],
+      "wrong_before": 16,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:66",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 67,
+      "target": 12,
+      "peer_ids": [
+        10,
+        1,
+        8
+      ],
+      "wrong_before": 16,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:67",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 68,
+      "target": 11,
+      "peer_ids": [
+        14,
+        2,
+        1
+      ],
+      "wrong_before": 16,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:68",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 69,
+      "target": 8,
+      "peer_ids": [
+        14,
+        3,
+        4
+      ],
+      "wrong_before": 16,
+      "wrong_peers": 3,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 70,
+      "target": 9,
+      "peer_ids": [
+        2,
+        0,
+        3
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:70",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 71,
+      "target": 3,
+      "peer_ids": [
+        2,
+        7,
+        10
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:71",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 72,
+      "target": 13,
+      "peer_ids": [
+        5,
+        0,
+        3
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:72",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 73,
+      "target": 7,
+      "peer_ids": [
+        15,
+        12,
+        9
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:73",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 74,
+      "target": 3,
+      "peer_ids": [
+        15,
+        5,
+        14
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:74",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 75,
+      "target": 15,
+      "peer_ids": [
+        12,
+        7,
+        11
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:75",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 76,
+      "target": 14,
+      "peer_ids": [
+        3,
+        4,
+        9
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:76",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 77,
+      "target": 2,
+      "peer_ids": [
+        4,
+        7,
+        12
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:77",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 78,
+      "target": 3,
+      "peer_ids": [
+        9,
+        14,
+        2
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:78",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 79,
+      "target": 13,
+      "peer_ids": [
+        10,
+        13,
+        11
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:79",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 80,
+      "target": 8,
+      "peer_ids": [
+        13,
+        15,
+        6
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 81,
+      "target": 9,
+      "peer_ids": [
+        4,
+        3,
+        11
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:81",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 82,
+      "target": 2,
+      "peer_ids": [
+        10,
+        4,
+        2
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:82",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 83,
+      "target": 13,
+      "peer_ids": [
+        12,
+        4,
+        14
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:83",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 84,
+      "target": 11,
+      "peer_ids": [
+        12,
+        13,
+        7
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:84",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 85,
+      "target": 15,
+      "peer_ids": [
+        4,
+        3,
+        6
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:85",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 86,
+      "target": 2,
+      "peer_ids": [
+        1,
+        10,
+        9
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:86",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 87,
+      "target": 10,
+      "peer_ids": [
+        4,
+        6,
+        13
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:87",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 88,
+      "target": 11,
+      "peer_ids": [
+        1,
+        3,
+        2
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:88",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 89,
+      "target": 4,
+      "peer_ids": [
+        9,
+        5,
+        15
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:89",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 90,
+      "target": 4,
+      "peer_ids": [
+        13,
+        11,
+        15
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 91,
+      "target": 1,
+      "peer_ids": [
+        1,
+        11,
+        13
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:91",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 92,
+      "target": 13,
+      "peer_ids": [
+        8,
+        1,
+        13
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:92",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 93,
+      "target": 12,
+      "peer_ids": [
+        6,
+        12,
+        2
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:93",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 94,
+      "target": 8,
+      "peer_ids": [
+        14,
+        3,
+        11
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:94",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 95,
+      "target": 2,
+      "peer_ids": [
+        0,
+        3,
+        5
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:95",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 96,
+      "target": 9,
+      "peer_ids": [
+        5,
+        5,
+        3
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:96",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 97,
+      "target": 13,
+      "peer_ids": [
+        5,
+        11,
+        2
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:97",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 98,
+      "target": 0,
+      "peer_ids": [
+        7,
+        12,
+        14
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:98",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 99,
+      "target": 3,
+      "peer_ids": [
+        1,
+        10,
+        11
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:99",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 100,
+      "target": 8,
+      "peer_ids": [
+        4,
+        10,
+        13
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:100",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 101,
+      "target": 5,
+      "peer_ids": [
+        12,
+        5,
+        8
+      ],
+      "wrong_before": 15,
+      "wrong_peers": 3,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 102,
+      "target": 0,
+      "peer_ids": [
+        3,
+        2,
+        14
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:102",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 103,
+      "target": 6,
+      "peer_ids": [
+        8,
+        0,
+        15
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:103",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 104,
+      "target": 3,
+      "peer_ids": [
+        0,
+        12,
+        0
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:104",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 105,
+      "target": 0,
+      "peer_ids": [
+        4,
+        13,
+        5
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 1,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:105",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 106,
+      "target": 3,
+      "peer_ids": [
+        10,
+        13,
+        6
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:106",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 107,
+      "target": 4,
+      "peer_ids": [
+        5,
+        10,
+        5
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 1,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:107",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 108,
+      "target": 13,
+      "peer_ids": [
+        13,
+        15,
+        1
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:108",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 109,
+      "target": 1,
+      "peer_ids": [
+        15,
+        11,
+        13
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:109",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 110,
+      "target": 11,
+      "peer_ids": [
+        13,
+        13,
+        8
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:110",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 111,
+      "target": 10,
+      "peer_ids": [
+        6,
+        15,
+        10
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:111",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 112,
+      "target": 7,
+      "peer_ids": [
+        2,
+        2,
+        0
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 113,
+      "target": 14,
+      "peer_ids": [
+        6,
+        8,
+        15
+      ],
+      "wrong_before": 12,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:113",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 114,
+      "target": 13,
+      "peer_ids": [
+        10,
+        6,
+        10
+      ],
+      "wrong_before": 12,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:114",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 115,
+      "target": 8,
+      "peer_ids": [
+        13,
+        2,
+        10
+      ],
+      "wrong_before": 12,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:115",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 116,
+      "target": 11,
+      "peer_ids": [
+        12,
+        13,
+        15
+      ],
+      "wrong_before": 12,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:116",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 117,
+      "target": 7,
+      "peer_ids": [
+        7,
+        1,
+        14
+      ],
+      "wrong_before": 12,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:117",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 118,
+      "target": 4,
+      "peer_ids": [
+        10,
+        8,
+        2
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:118",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 119,
+      "target": 2,
+      "peer_ids": [
+        13,
+        10,
+        14
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:119",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 120,
+      "target": 11,
+      "peer_ids": [
+        4,
+        7,
+        5
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:120",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 121,
+      "target": 14,
+      "peer_ids": [
+        0,
+        14,
+        0
+      ],
+      "wrong_before": 14,
+      "wrong_peers": 1,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:121",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 122,
+      "target": 6,
+      "peer_ids": [
+        4,
+        5,
+        9
+      ],
+      "wrong_before": 13,
+      "wrong_peers": 2,
+      "verification": true,
+      "source": {
+        "record": "R11720491",
+        "value": "disabled"
+      }
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 123,
+      "target": 10,
+      "peer_ids": [
+        3,
+        6,
+        13
+      ],
+      "wrong_before": 12,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:123",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 124,
+      "target": 15,
+      "peer_ids": [
+        14,
+        5,
+        11
+      ],
+      "wrong_before": 12,
+      "wrong_peers": 1,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:124",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 125,
+      "target": 11,
+      "peer_ids": [
+        6,
+        13,
+        5
+      ],
+      "wrong_before": 11,
+      "wrong_peers": 1,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:125",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 126,
+      "target": 14,
+      "peer_ids": [
+        9,
+        10,
+        5
+      ],
+      "wrong_before": 10,
+      "wrong_peers": 2,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:126",
+      "valid": true
+    },
+    {
+      "task_id": "heldout-000",
+      "domain": "feature",
+      "truth": 0,
+      "schedule": "spread",
+      "step": 127,
+      "target": 15,
+      "peer_ids": [
+        12,
+        12,
+        4
+      ],
+      "wrong_before": 11,
+      "wrong_peers": 3,
+      "verification": false,
+      "request_id": "live:gpt-4.1-mini-2025-04-14:heldout-000:spread:127",
+      "valid": true
+    }
+  ]
+}

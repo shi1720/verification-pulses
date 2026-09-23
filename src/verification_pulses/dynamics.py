@@ -5,6 +5,7 @@ import numpy as np
 from numpy.polynomial import Polynomial
 from scipy.integrate import quad
 from scipy.special import ndtr, ndtri, logsumexp
+from scipy.stats import hypergeom
 
 
 def majority3(x):
@@ -50,11 +51,23 @@ def majority_equilibria(u):
 
 
 def minimum_fuel(response, x0, boundary, peak=1., epsilon=0.):
+    """Numerical quadrature of the fuel integral.
+
+    For majority3, all stationary points of the cubic denominator are checked.
+    For an arbitrary callable the grid is only a numerical screen, not a
+    certified global positivity test. The analytical theorem assumes positivity.
+    """
     if not 0 <= epsilon < boundary < x0 <= 1 or not 0 < peak <= 1:
         raise ValueError("require 0 <= epsilon < boundary < x0 <= 1 and 0 < peak <= 1")
     denominator = lambda x: x-(1-peak)*response(x)-peak*epsilon
-    grid = np.linspace(boundary, x0, 10001)
-    if np.min(denominator(grid)) <= 0:
+    if response is majority3:
+        poly=Polynomial([-peak*epsilon,1.,-3*(1-peak),2*(1-peak)])
+        candidates=[boundary,x0]+[float(z.real) for z in poly.deriv().roots()
+            if abs(z.imag)<1e-12 and boundary<=z.real<=x0]
+        lower=min(float(denominator(x)) for x in candidates)
+    else:
+        lower=np.min(denominator(np.linspace(boundary,x0,10001)))
+    if lower <= 1e-13:
         return np.inf
     return quad(lambda x: peak/denominator(x), boundary, x0, epsabs=1e-11, epsrel=1e-11)[0]
 
@@ -103,6 +116,13 @@ def pulse_risks(n, i0, max_checks, response=majority3):
         out.append(float(p@h))
         p=propagate(p,birth,death)
     return np.asarray(out)
+
+
+def distinct_pulse_distribution(n, i0, checks):
+    """Check uniformly sampled distinct slots; different addressing contract."""
+    if not 0 <= checks <= n:
+        raise ValueError("distinct checks must not exceed population")
+    return hypergeom.pmf(np.arange(n+1), n, i0, n-checks)
 
 
 def critical_window(n, checks, x0, boundary=.5, slope=.5):

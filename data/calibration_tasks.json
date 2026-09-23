@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "calibration-000",
+    "domain": "feature",
+    "record": "R11169594",
+    "question": "What is the rollout state of feature R11169594?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R11169594",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-001",
+    "domain": "warehouse",
+    "record": "R69772507",
+    "question": "What is the dispatch state of warehouse batch R69772507?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R69772507",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-002",
+    "domain": "routing",
+    "record": "R60804374",
+    "question": "What is the active routing pool for service R60804374?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R60804374",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-003",
+    "domain": "feature",
+    "record": "R57694478",
+    "question": "What is the rollout state of feature R57694478?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R57694478",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-004",
+    "domain": "warehouse",
+    "record": "R26161814",
+    "question": "What is the dispatch state of warehouse batch R26161814?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R26161814",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-005",
+    "domain": "routing",
+    "record": "R82484415",
+    "question": "What is the active routing pool for service R82484415?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R82484415",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-006",
+    "domain": "feature",
+    "record": "R47532067",
+    "question": "What is the rollout state of feature R47532067?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R47532067",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-007",
+    "domain": "warehouse",
+    "record": "R96426146",
+    "question": "What is the dispatch state of warehouse batch R96426146?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R96426146",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-008",
+    "domain": "routing",
+    "record": "R31821089",
+    "question": "What is the active routing pool for service R31821089?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R31821089",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-009",
+    "domain": "feature",
+    "record": "R78696295",
+    "question": "What is the rollout state of feature R78696295?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R78696295",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-010",
+    "domain": "warehouse",
+    "record": "R94125876",
+    "question": "What is the dispatch state of warehouse batch R94125876?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R94125876",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-011",
+    "domain": "routing",
+    "record": "R86708494",
+    "question": "What is the active routing pool for service R86708494?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R86708494",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-012",
+    "domain": "feature",
+    "record": "R14968286",
+    "question": "What is the rollout state of feature R14968286?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R14968286",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-013",
+    "domain": "warehouse",
+    "record": "R83318742",
+    "question": "What is the dispatch state of warehouse batch R83318742?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R83318742",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-014",
+    "domain": "routing",
+    "record": "R79687861",
+    "question": "What is the active routing pool for service R79687861?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R79687861",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-015",
+    "domain": "feature",
+    "record": "R88469805",
+    "question": "What is the rollout state of feature R88469805?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R88469805",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-016",
+    "domain": "warehouse",
+    "record": "R62402860",
+    "question": "What is the dispatch state of warehouse batch R62402860?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R62402860",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-017",
+    "domain": "routing",
+    "record": "R32655330",
+    "question": "What is the active routing pool for service R32655330?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R32655330",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-018",
+    "domain": "feature",
+    "record": "R89346106",
+    "question": "What is the rollout state of feature R89346106?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R89346106",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-019",
+    "domain": "warehouse",
+    "record": "R68134076",
+    "question": "What is the dispatch state of warehouse batch R68134076?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R68134076",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-020",
+    "domain": "routing",
+    "record": "R44315897",
+    "question": "What is the active routing pool for service R44315897?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R44315897",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-021",
+    "domain": "feature",
+    "record": "R20969042",
+    "question": "What is the rollout state of feature R20969042?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R20969042",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-022",
+    "domain": "warehouse",
+    "record": "R21528387",
+    "question": "What is the dispatch state of warehouse batch R21528387?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R21528387",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-023",
+    "domain": "routing",
+    "record": "R21745532",
+    "question": "What is the active routing pool for service R21745532?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R21745532",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-024",
+    "domain": "feature",
+    "record": "R59870543",
+    "question": "What is the rollout state of feature R59870543?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R59870543",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-025",
+    "domain": "warehouse",
+    "record": "R99858862",
+    "question": "What is the dispatch state of warehouse batch R99858862?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R99858862",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-026",
+    "domain": "routing",
+    "record": "R18370599",
+    "question": "What is the active routing pool for service R18370599?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R18370599",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-027",
+    "domain": "feature",
+    "record": "R21212033",
+    "question": "What is the rollout state of feature R21212033?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R21212033",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-028",
+    "domain": "warehouse",
+    "record": "R31019285",
+    "question": "What is the dispatch state of warehouse batch R31019285?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R31019285",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-029",
+    "domain": "routing",
+    "record": "R66951259",
+    "question": "What is the active routing pool for service R66951259?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R66951259",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-030",
+    "domain": "feature",
+    "record": "R85379330",
+    "question": "What is the rollout state of feature R85379330?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R85379330",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-031",
+    "domain": "warehouse",
+    "record": "R56033526",
+    "question": "What is the dispatch state of warehouse batch R56033526?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R56033526",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-032",
+    "domain": "routing",
+    "record": "R47210817",
+    "question": "What is the active routing pool for service R47210817?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R47210817",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-033",
+    "domain": "feature",
+    "record": "R10824892",
+    "question": "What is the rollout state of feature R10824892?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R10824892",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-034",
+    "domain": "warehouse",
+    "record": "R73704728",
+    "question": "What is the dispatch state of warehouse batch R73704728?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R73704728",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-035",
+    "domain": "routing",
+    "record": "R40322918",
+    "question": "What is the active routing pool for service R40322918?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R40322918",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-036",
+    "domain": "feature",
+    "record": "R86076748",
+    "question": "What is the rollout state of feature R86076748?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R86076748",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-037",
+    "domain": "warehouse",
+    "record": "R61995355",
+    "question": "What is the dispatch state of warehouse batch R61995355?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R61995355",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-038",
+    "domain": "routing",
+    "record": "R36224087",
+    "question": "What is the active routing pool for service R36224087?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R36224087",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-039",
+    "domain": "feature",
+    "record": "R37908759",
+    "question": "What is the rollout state of feature R37908759?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R37908759",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-040",
+    "domain": "warehouse",
+    "record": "R60732454",
+    "question": "What is the dispatch state of warehouse batch R60732454?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R60732454",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-041",
+    "domain": "routing",
+    "record": "R47579687",
+    "question": "What is the active routing pool for service R47579687?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R47579687",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-042",
+    "domain": "feature",
+    "record": "R80396619",
+    "question": "What is the rollout state of feature R80396619?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R80396619",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-043",
+    "domain": "warehouse",
+    "record": "R12151948",
+    "question": "What is the dispatch state of warehouse batch R12151948?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R12151948",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-044",
+    "domain": "routing",
+    "record": "R47438998",
+    "question": "What is the active routing pool for service R47438998?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R47438998",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-045",
+    "domain": "feature",
+    "record": "R65498455",
+    "question": "What is the rollout state of feature R65498455?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R65498455",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-046",
+    "domain": "warehouse",
+    "record": "R95269170",
+    "question": "What is the dispatch state of warehouse batch R95269170?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R95269170",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-047",
+    "domain": "routing",
+    "record": "R95706947",
+    "question": "What is the active routing pool for service R95706947?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R95706947",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-048",
+    "domain": "feature",
+    "record": "R23121233",
+    "question": "What is the rollout state of feature R23121233?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R23121233",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-049",
+    "domain": "warehouse",
+    "record": "R96657151",
+    "question": "What is the dispatch state of warehouse batch R96657151?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R96657151",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-050",
+    "domain": "routing",
+    "record": "R48441321",
+    "question": "What is the active routing pool for service R48441321?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R48441321",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-051",
+    "domain": "feature",
+    "record": "R87951721",
+    "question": "What is the rollout state of feature R87951721?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R87951721",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-052",
+    "domain": "warehouse",
+    "record": "R74831286",
+    "question": "What is the dispatch state of warehouse batch R74831286?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R74831286",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-053",
+    "domain": "routing",
+    "record": "R91782752",
+    "question": "What is the active routing pool for service R91782752?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R91782752",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-054",
+    "domain": "feature",
+    "record": "R90685872",
+    "question": "What is the rollout state of feature R90685872?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R90685872",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-055",
+    "domain": "warehouse",
+    "record": "R19865197",
+    "question": "What is the dispatch state of warehouse batch R19865197?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R19865197",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-056",
+    "domain": "routing",
+    "record": "R37599031",
+    "question": "What is the active routing pool for service R37599031?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R37599031",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-057",
+    "domain": "feature",
+    "record": "R17691362",
+    "question": "What is the rollout state of feature R17691362?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R17691362",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-058",
+    "domain": "warehouse",
+    "record": "R81144176",
+    "question": "What is the dispatch state of warehouse batch R81144176?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R81144176",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-059",
+    "domain": "routing",
+    "record": "R57293666",
+    "question": "What is the active routing pool for service R57293666?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R57293666",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-060",
+    "domain": "feature",
+    "record": "R81421951",
+    "question": "What is the rollout state of feature R81421951?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R81421951",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-061",
+    "domain": "warehouse",
+    "record": "R81528404",
+    "question": "What is the dispatch state of warehouse batch R81528404?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R81528404",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-062",
+    "domain": "routing",
+    "record": "R40536802",
+    "question": "What is the active routing pool for service R40536802?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R40536802",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-063",
+    "domain": "feature",
+    "record": "R61393020",
+    "question": "What is the rollout state of feature R61393020?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R61393020",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-064",
+    "domain": "warehouse",
+    "record": "R86593933",
+    "question": "What is the dispatch state of warehouse batch R86593933?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R86593933",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-065",
+    "domain": "routing",
+    "record": "R75367415",
+    "question": "What is the active routing pool for service R75367415?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R75367415",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-066",
+    "domain": "feature",
+    "record": "R95419725",
+    "question": "What is the rollout state of feature R95419725?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R95419725",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-067",
+    "domain": "warehouse",
+    "record": "R48685278",
+    "question": "What is the dispatch state of warehouse batch R48685278?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R48685278",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-068",
+    "domain": "routing",
+    "record": "R55099324",
+    "question": "What is the active routing pool for service R55099324?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R55099324",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-069",
+    "domain": "feature",
+    "record": "R63257681",
+    "question": "What is the rollout state of feature R63257681?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R63257681",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-070",
+    "domain": "warehouse",
+    "record": "R26568675",
+    "question": "What is the dispatch state of warehouse batch R26568675?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R26568675",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-071",
+    "domain": "routing",
+    "record": "R39340281",
+    "question": "What is the active routing pool for service R39340281?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R39340281",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-072",
+    "domain": "feature",
+    "record": "R31376956",
+    "question": "What is the rollout state of feature R31376956?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R31376956",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-073",
+    "domain": "warehouse",
+    "record": "R76222023",
+    "question": "What is the dispatch state of warehouse batch R76222023?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R76222023",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-074",
+    "domain": "routing",
+    "record": "R65760472",
+    "question": "What is the active routing pool for service R65760472?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R65760472",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-075",
+    "domain": "feature",
+    "record": "R55195176",
+    "question": "What is the rollout state of feature R55195176?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R55195176",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-076",
+    "domain": "warehouse",
+    "record": "R94063351",
+    "question": "What is the dispatch state of warehouse batch R94063351?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R94063351",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-077",
+    "domain": "routing",
+    "record": "R62320766",
+    "question": "What is the active routing pool for service R62320766?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R62320766",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-078",
+    "domain": "feature",
+    "record": "R44580670",
+    "question": "What is the rollout state of feature R44580670?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R44580670",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-079",
+    "domain": "warehouse",
+    "record": "R78773645",
+    "question": "What is the dispatch state of warehouse batch R78773645?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R78773645",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-080",
+    "domain": "routing",
+    "record": "R97017966",
+    "question": "What is the active routing pool for service R97017966?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R97017966",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-081",
+    "domain": "feature",
+    "record": "R84566080",
+    "question": "What is the rollout state of feature R84566080?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R84566080",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-082",
+    "domain": "warehouse",
+    "record": "R77833461",
+    "question": "What is the dispatch state of warehouse batch R77833461?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R77833461",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-083",
+    "domain": "routing",
+    "record": "R23492145",
+    "question": "What is the active routing pool for service R23492145?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R23492145",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-084",
+    "domain": "feature",
+    "record": "R28965965",
+    "question": "What is the rollout state of feature R28965965?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R28965965",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-085",
+    "domain": "warehouse",
+    "record": "R23724166",
+    "question": "What is the dispatch state of warehouse batch R23724166?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R23724166",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-086",
+    "domain": "routing",
+    "record": "R87519284",
+    "question": "What is the active routing pool for service R87519284?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R87519284",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "calibration-087",
+    "domain": "feature",
+    "record": "R72921000",
+    "question": "What is the rollout state of feature R72921000?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R72921000",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-088",
+    "domain": "warehouse",
+    "record": "R50307900",
+    "question": "What is the dispatch state of warehouse batch R50307900?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R50307900",
+      "value": "released"
+    }
+  },
+  {
+    "id": "calibration-089",
+    "domain": "routing",
+    "record": "R66019585",
+    "question": "What is the active routing pool for service R66019585?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R66019585",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-090",
+    "domain": "feature",
+    "record": "R96280979",
+    "question": "What is the rollout state of feature R96280979?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R96280979",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "calibration-091",
+    "domain": "warehouse",
+    "record": "R40824424",
+    "question": "What is the dispatch state of warehouse batch R40824424?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R40824424",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-092",
+    "domain": "routing",
+    "record": "R35757259",
+    "question": "What is the active routing pool for service R35757259?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R35757259",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "calibration-093",
+    "domain": "feature",
+    "record": "R26087107",
+    "question": "What is the rollout state of feature R26087107?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R26087107",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "calibration-094",
+    "domain": "warehouse",
+    "record": "R84702261",
+    "question": "What is the dispatch state of warehouse batch R84702261?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R84702261",
+      "value": "held"
+    }
+  },
+  {
+    "id": "calibration-095",
+    "domain": "routing",
+    "record": "R30284051",
+    "question": "What is the active routing pool for service R30284051?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R30284051",
+      "value": "amber"
+    }
+  }
+]

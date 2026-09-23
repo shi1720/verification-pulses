@@ -1,0 +1,88 @@
+[
+  {
+    "key": "physics_agents",
+    "url": "https://arxiv.org/pdf/2608.16578v2",
+    "pages": 52,
+    "sha256": "44edd3915a6ede994daa71e969438e2a39c6dbbc3b71a72817ae74e40788ee04"
+  },
+  {
+    "key": "consensus_limit_laws",
+    "url": "https://arxiv.org/pdf/2605.19131v2",
+    "pages": 31,
+    "sha256": "9766fa3f684d10d92e034f1e9f227cdc5bd65d7e2a275490ada2176dbc8c045c"
+  },
+  {
+    "key": "noisy_majority",
+    "url": "https://arxiv.org/pdf/2112.03543",
+    "pages": 25,
+    "sha256": "7d4270195aa461e818df39b5c078988835bded7027fbbb5b3173ac1f164fcf72"
+  },
+  {
+    "key": "opinion_control",
+    "url": "https://arxiv.org/pdf/2207.01300",
+    "pages": 58,
+    "sha256": "e9269c65cce6a58c3ce7575b8c2d6923ca4dd972582d85addeae48f8e983d804"
+  },
+  {
+    "key": "network_control",
+    "url": "https://arxiv.org/pdf/2404.09849",
+    "pages": 29,
+    "sha256": "0a7ed180beb22668e78ef284b2c5df2f5fb1e2a78e496b0dae956e33e4c3d9f3"
+  },
+  {
+    "key": "voter_resetting",
+    "url": "https://arxiv.org/pdf/2207.08590",
+    "pages": 46,
+    "sha256": "1863129093cc76886ecb29c2e217ebce008655eeb8dafae08ed17af9e291445c",
+    "journal_metadata": {
+      "doi": "10.1088/1751-8121/ad0bcd",
+      "year": 2023,
+      "volume": "56",
+      "issue": "49",
+      "article": "495005",
+      "verified_via": "https://api.crossref.org/works/10.1088%2F1751-8121%2Fad0bcd"
+    }
+  },
+  {
+    "key": "multiagent_debate",
+    "url": "https://arxiv.org/pdf/2305.14325",
+    "pages": 27,
+    "sha256": "b302ff15202dc3cda03f40ea1ac92b29e1519978540b345af92991f6d3e619b4"
+  },
+  {
+    "key": "consensus_not_verification",
+    "url": "https://arxiv.org/pdf/2603.06612",
+    "pages": 16,
+    "sha256": "9756048a38e56fbe983bda620b14756203a6a96fd0117b31e0da06573820ea04"
+  },
+  {
+    "key": "darling",
+    "url": "https://arxiv.org/pdf/math/0210109",
+    "pages": 16,
+    "sha256": "87a3a70c7df1d94a7a273dd4280a3842c2d5139c3a131275acf3d26058872882"
+  },
+  {
+    "key": "galam",
+    "url": "https://arxiv.org/pdf/cond-mat/0203553",
+    "pages": 11,
+    "sha256": "328798601ebcdfdddfe2ad1db230872e2f051f0a4cb9e47e1ea35abb1d42d069"
+  },
+  {
+    "key": "evans",
+    "url": "https://math.berkeley.edu/~evans/control.course.pdf",
+    "pages": 126,
+    "sha256": "658ac09f16dee3c67d1373dacc43ff2cd619a2bd195180de87afaf8c98a684d6"
+  },
+  {
+    "id": "lalley2014",
+    "url": "https://galton.uchicago.edu/~lalley/Courses/383/Lindeberg.pdf",
+    "sha256": "c1c6364c00f866439a590d87473d8e4bf9111a015307a9272de88d8fb34e7777",
+    "pages": 6
+  },
+  {
+    "id": "finite_horizon_influence",
+    "url": "https://mtns2018.hkust.edu.hk/media/files/0150.pdf",
+    "sha256": "6d5c183ae54621ff36f903210dffce3962410af74a44d0855186b333fa8e20ee",
+    "pages": 8
+  }
+]

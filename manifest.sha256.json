@@ -1,0 +1,891 @@
+{
+  "algorithm": "SHA-256",
+  "main_collection_commit": "d7247ff",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 437,
+      "sha256": "87eec9fd246f33aa0794996b6381b121d41f9a418357f777b71ee2004e5c2c00"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 138,
+      "sha256": "684eb6575d661f0eca1175a53241c3ddfe3b9dc89fbd3d785de322a5777a0e05"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 575,
+      "sha256": "4299b4f8265f4fcab081ee5391987f8eb1690c5cd09f4e688ed7f5e5b483d873"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "4378a0cd6acfb381c470c02c0f139c638f326f58894325943fbf06395d797ce7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6258,
+      "sha256": "a560e43efc58164fb8926db32b1801aa34ad98c94b742f32361f14c842ddf302"
+    },
+    {
+      "path": "data/calibration_tasks.json",
+      "bytes": 29646,
+      "sha256": "1bc50bd1464b18fe8e356067a1ef47affd349ebdfb3393f572503d217bfeaa15"
+    },
+    {
+      "path": "data/heldout_tasks.json",
+      "bytes": 5491,
+      "sha256": "d62b810beba59aa437fc665c197b1e9c829bebcbb39d0a1ed7462c6113060269"
+    },
+    {
+      "path": "data/pilot_tasks.json",
+      "bytes": 3638,
+      "sha256": "4e2352b27111ce499e087c4f8a92859c1098685c934cd3a3fbebaa69691f1941"
+    },
+    {
+      "path": "data/processed/budgets.csv",
+      "bytes": 468,
+      "sha256": "0fc53631b6c085fd904df618388b434145ea9423563e5bbde0027667b16147b1"
+    },
+    {
+      "path": "data/processed/calibration.csv",
+      "bytes": 717,
+      "sha256": "60cdf01123c28d89c5d35dbe35dd84910ab2f95db4379928f6d61554cc1b6a63"
+    },
+    {
+      "path": "data/processed/critical_window.csv",
+      "bytes": 66604,
+      "sha256": "f44f092891668dcd54fff3efb2f61b7665e303e75ada932c3c3b61735b46c1b3"
+    },
+    {
+      "path": "data/processed/episode_metrics.csv",
+      "bytes": 8972,
+      "sha256": "62045126d2fb55c351289236dc9df4c7b3f01bc14911988b98cbe713fe788673"
+    },
+    {
+      "path": "data/processed/gpt-4.1-mini-2025-04-14_equilibria.json",
+      "bytes": 224,
+      "sha256": "f3006c235235015fa793419aeb83c2655ab037356db3058b19814184989b90a9"
+    },
+    {
+      "path": "data/processed/gpt-4.1-nano-2025-04-14_equilibria.json",
+      "bytes": 94,
+      "sha256": "c4fdfe5decb0546ab5c61deddb503a3b219c28e82f2600b6449454984c89dc27"
+    },
+    {
+      "path": "data/processed/independent_monte_carlo.csv",
+      "bytes": 303,
+      "sha256": "00fd18870b3c7cfcbe9354889b9bc28ba43093ac33594e9311a6ee56f945a8c5"
+    },
+    {
+      "path": "data/processed/live_summary.csv",
+      "bytes": 619,
+      "sha256": "266469f376f72be3e533b3e441f44a3dd1352c31bfb6a6fc468f7eecee2b7bc1"
+    },
+    {
+      "path": "data/processed/peak_fuel.csv",
+      "bytes": 19696,
+      "sha256": "d26a041e34dce733be44e1f1a462ca6c57f33c4a1fb689147ac1142998ba6834"
+    },
+    {
+      "path": "data/processed/prediction_audit.csv",
+      "bytes": 1081,
+      "sha256": "e07ae921afe810d80910f3015d5b1e31041cd8bc5431314d91ba400dbd56a0ee"
+    },
+    {
+      "path": "data/processed/primary_contrasts.csv",
+      "bytes": 482,
+      "sha256": "6ab959f9ea9c1f172fabb2c48a732bf008fe1d5730ddfd00955e990e04d0f339"
+    },
+    {
+      "path": "data/processed/raw_audit.json",
+      "bytes": 738,
+      "sha256": "ca88254a62d03470f98e5e8dd7c8ce1d546359232451f8ce92cf1f486e366a4c"
+    },
+    {
+      "path": "data/processed/reproducibility_report.json",
+      "bytes": 450,
+      "sha256": "c90cc60bed401c53bb9c88171e9497822ebc061375918e5da82fce6ea7c2e3a6"
+    },
+    {
+      "path": "data/processed/response_parameters.json",
+      "bytes": 213,
+      "sha256": "15799c49b59b9e04c208f88062debd4d2c8659773f801287cd1f775c32bd6a7a"
+    },
+    {
+      "path": "data/processed/results.json",
+      "bytes": 9462,
+      "sha256": "d80ef1e581eb6033206c63b26fbbdde08ed4fc8840f479b9a5e576282a20c4e8"
+    },
+    {
+      "path": "data/processed/tail_calibration_uncertainty.csv",
+      "bytes": 1573,
+      "sha256": "eaec759996dbf86e75fe7b9e42701dbf1913c120d3bbfb07f28cc8b460c4190d"
+    },
+    {
+      "path": "data/processed/usage.csv",
+      "bytes": 486,
+      "sha256": "7d65e7ff6a0faa4fa64641485279dcbda875047c5a0614247cd57d6e143e38a4"
+    },
+    {
+      "path": "data/raw/calibration.jsonl",
+      "bytes": 1719178,
+      "sha256": "72d372db65a1285bc9bb40b725d4d60e447cdd1de4fd0f97230d86d138eb36a5"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-000_early.json",
+      "bytes": 50718,
+      "sha256": "d83f51d6230d5902b78f9d1605aefcc6194b7d61918afdc0262077bba62f022c"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-000_late.json",
+      "bytes": 50689,
+      "sha256": "24c96a9e6926101f0e3e77326e86935fc6c1f5324335f6fec4032abb694e62e1"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-000_spread.json",
+      "bytes": 51198,
+      "sha256": "7e2cc92fa2bd2f088f8e6f726e10d70cf831b7fc29dd0d12cb4bc41117570a3f"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-001_early.json",
+      "bytes": 50935,
+      "sha256": "179fef5cd6e9342bb9bd0e23e132ba3b40ff6cff9899758ac22e7f6bfacdfea4"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-001_late.json",
+      "bytes": 50870,
+      "sha256": "5aa86ab4c23a5e0e1dbd5be6d056999b6664f2d27202c9bef55a3ba7498d7c94"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-001_spread.json",
+      "bytes": 51210,
+      "sha256": "1b7ae8ed6043d984fb6fcbf385cc2546acb6bb644fc3f2fafd07609bd4736aac"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-002_early.json",
+      "bytes": 50674,
+      "sha256": "32f25ee0cb10ed210063763a171c1d847e42c88d48f504fede4babd788d250f6"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-002_late.json",
+      "bytes": 50641,
+      "sha256": "dfb0f5155632c05a67a024b06d66afb4907cf31815324e4e4986a18ac4797c93"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-002_spread.json",
+      "bytes": 51009,
+      "sha256": "2a9435c878e397753085d79f7c7cf323bbc27987cd85f53937b9852eec49b9d2"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-003_early.json",
+      "bytes": 50845,
+      "sha256": "2214c13c99be1c0afb01583dc8f6bb8c7565bbcc671c7d7001a46fbb171d8d8c"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-003_late.json",
+      "bytes": 50671,
+      "sha256": "f9edcaeeee967d72aaa7c674ca48ab11ac0b38eb9e50509a53f751b41aa06d7a"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-003_spread.json",
+      "bytes": 51111,
+      "sha256": "e05432759eea3976ea776cca4266f43fb0508c3e7f33a66b5373c06f464f3826"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-004_early.json",
+      "bytes": 50958,
+      "sha256": "237664b22215f7783995ce11ff52e7b3eb803a840f8588799171ff5310f59b36"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-004_late.json",
+      "bytes": 50921,
+      "sha256": "312c452ccf01d0cd2c2a8f0a6a85b5b14ebf08b0244f2382f2bb54a60e1a97a6"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-004_spread.json",
+      "bytes": 51430,
+      "sha256": "2dfec8fda07fd22c2d4f0964169d4fac02154a50747d88fcac67608cd51516dd"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-005_early.json",
+      "bytes": 50679,
+      "sha256": "03622c22c456bf2937c7289593b90bb97b29a3911e60e07a494d26e3ad3d6374"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-005_late.json",
+      "bytes": 50650,
+      "sha256": "8e12b3cfd73df691aeed4bdb36aee52da48a546f7673a36b847b8c92894edb36"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-005_spread.json",
+      "bytes": 50972,
+      "sha256": "ed99aa1f475324f5a8413f632ed9f6097cc8a02a9c019549a76d8e7d3403c3c5"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-006_early.json",
+      "bytes": 50683,
+      "sha256": "6ebef62ac3f67b0a0ee43f989dd20d0f00ae7b5f2c7f161a145f2dba8913036f"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-006_late.json",
+      "bytes": 50616,
+      "sha256": "b6839f92050752857054961ac48124fc3c77576e6be1c185614c0c573bc23cb1"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-006_spread.json",
+      "bytes": 51076,
+      "sha256": "2a823237ae5643feba1f5540d5af8f1393c3010844d3c95e0622652faa23c735"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-007_early.json",
+      "bytes": 51113,
+      "sha256": "a619ab352c199093bb3d661065b690a896c41646479a8aa5f8a217b8209de8d5"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-007_late.json",
+      "bytes": 50877,
+      "sha256": "53af909be9528d7b01aef00246ff7eff77573abd3948efed539ae97abcc118a1"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-007_spread.json",
+      "bytes": 51384,
+      "sha256": "628b24c86f57e9ee0da4e34114fcf4b293d95e84557d7275a19014547e6eb9dd"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-008_early.json",
+      "bytes": 50674,
+      "sha256": "1850b593b4fe253304ef706a8ffbe62054ee93acf5d65c373dffdc20b0d844cb"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-008_late.json",
+      "bytes": 50629,
+      "sha256": "0fbef1c95a34ffe5a3054397e9ddf23ce7b09b77b515b1c135cc92477400da9b"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-008_spread.json",
+      "bytes": 51136,
+      "sha256": "cbffbbdc17ff4a357084d51f55b1fd16137165eee4014dff66b341e0a1c03e86"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-009_early.json",
+      "bytes": 50697,
+      "sha256": "dce3b1f015d81052b2a946144b8f401d26570a9cf7bb648652e5411d3209c376"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-009_late.json",
+      "bytes": 50662,
+      "sha256": "01060116eed45b4fec9844b7a547752fe5f73c00dd59a7a58f8657535afc8241"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-009_spread.json",
+      "bytes": 51096,
+      "sha256": "5e4ba43c4962e7b6a84ff98da3b5be8ee87d0eeadf1b99b848c676f6fad61195"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-010_early.json",
+      "bytes": 51146,
+      "sha256": "df9f5f8eb295d06c0582a9859830dbfade58dec5e94a81c2dda21c31eb349f67"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-010_late.json",
+      "bytes": 50896,
+      "sha256": "fb2f3a625a8fd94fefee22e2267f8e2de89cbba2f3138724ad9771f3908da5f0"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-010_spread.json",
+      "bytes": 51407,
+      "sha256": "6bd8b54e283ae632718614b4f9e2c56956d5404d9feb12df242084db5e68a2d3"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-011_early.json",
+      "bytes": 50663,
+      "sha256": "c91282949ab87ac74854905456277f3d589a364f5eac61dd7e6a61aee57a182a"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-011_late.json",
+      "bytes": 50632,
+      "sha256": "ab3ff12f2c0df7c7ed54eb67664e2c387baae1b7fcfc25e47b6976621d4b36fb"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-011_spread.json",
+      "bytes": 51141,
+      "sha256": "27c02156f7fd207d1091fa02d4d1a48d36ce64c8977b09f4da4e091abaa6fafd"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-012_early.json",
+      "bytes": 50700,
+      "sha256": "3e691d0cfa24a3aef21012a8fd4c349102aff6690b8078e1f73eb9ee52d74022"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-012_late.json",
+      "bytes": 50663,
+      "sha256": "d756f9113e1cc70bdcf5acb89b662192b79c4d40f7383ca6e70ce28dfbe81688"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-012_spread.json",
+      "bytes": 51168,
+      "sha256": "8a0f454c88bc7524483235e3731e8a0b776b494cae70b09c0144271fe7d22f16"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-013_early.json",
+      "bytes": 51088,
+      "sha256": "918832aebcadcf3021f420d28b145a1597a8c1d79fa9bc29a86c09c27a4a3310"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-013_late.json",
+      "bytes": 50866,
+      "sha256": "6ddf076ac2d6e626dfed5d93c6ecae5ae1b2e37bb00058c3f3261d9f9b2e8ca3"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-013_spread.json",
+      "bytes": 51375,
+      "sha256": "d213838959a5eaac9e415553d03633841b0645d1e22af73d5cf7b6c9428bcd34"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-014_early.json",
+      "bytes": 50894,
+      "sha256": "720d82aa42048916fd4d4ae95b9ca7b3a9b09effe92057caae2e45c2750e8612"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-014_late.json",
+      "bytes": 50644,
+      "sha256": "f3bca5ad46c9988370218243509b3bba31314ab1185fdc53cba63591bb8cebbd"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-014_spread.json",
+      "bytes": 51153,
+      "sha256": "e026645c8c4c48135522dafe670060786200fe768f7cd0c54128c4817b47ef6b"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-015_early.json",
+      "bytes": 50705,
+      "sha256": "2cbdcc6f333079bacea04c64b8ed2a45c8b792993011377e47ff25a9d956d203"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-015_late.json",
+      "bytes": 50676,
+      "sha256": "8bc4c379a1ab168727da678dc1dfaeb2b6d665e06ac622e26aaedb0213ac697d"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-015_spread.json",
+      "bytes": 51179,
+      "sha256": "3c855c41e476e7f1be1fc2535405a3132e759f8a0532169d409d3de21198ccce"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-016_early.json",
+      "bytes": 51100,
+      "sha256": "ef7f26cca8e5b2cff37dfa2aadddbaefd70d79f17a38592455cf4366ed9eec3b"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-016_late.json",
+      "bytes": 50868,
+      "sha256": "bbe86431699c3d178ebee0d50679485ac410bcc300855c81b173ece3d448bdc8"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-016_spread.json",
+      "bytes": 51373,
+      "sha256": "ebcbc8d8a72b968f98351bf991cdfbdea740bdadf75c379c9581df1eb0899329"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-017_early.json",
+      "bytes": 50679,
+      "sha256": "79ecce110dbffeada321ccafc2191ae945b8ad5a4d05d8cc15624af21d0c1d62"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-017_late.json",
+      "bytes": 50640,
+      "sha256": "0c44fd2ebd44219f7ae4365056e762f4db0533d0d537a39292f5b206baa18e3a"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-mini-2025-04-14_heldout-017_spread.json",
+      "bytes": 51149,
+      "sha256": "72b3818d5051b2578aa8180eed744cb5bfa034fb2919159e6f9b3568da84f0c7"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-000_early.json",
+      "bytes": 50718,
+      "sha256": "71381c30cee36726dc4ba6228ceca33de0ea6f2a6bfdb48de5596db4d5d1a767"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-000_late.json",
+      "bytes": 50453,
+      "sha256": "6ece6a348007d802f64b4c151f2f294a36e73513c25ab2b439d786aab2fd941b"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-000_spread.json",
+      "bytes": 51003,
+      "sha256": "96a7b1f950f61d95dd4e84c53bb4db1c50946cb9bb49ef777b2b020bfba9f032"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-001_early.json",
+      "bytes": 51132,
+      "sha256": "a6c4f1512e3b829daff0c7e69e01b7cfd52e31e5ac9a5581d6b7b1a2feabc6c6"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-001_late.json",
+      "bytes": 50870,
+      "sha256": "98c5e4a1f5e28cd4cc6e4adf929f151e8e812d90a756cee859de004d43b6fbc3"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-001_spread.json",
+      "bytes": 51379,
+      "sha256": "ecbcf0e36d1e4ed9a1ce3332757d3de8c2a382c5317d30f516735f6ff672e90d"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-002_early.json",
+      "bytes": 50875,
+      "sha256": "dc52f06f555c85addbbb1e9e924fb3260b577d832f85ffc4b59f7a2734c59dd3"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-002_late.json",
+      "bytes": 50641,
+      "sha256": "2409114fa5072ad277f95119ccf1970725ae960efa15e1813f25fb6f0346144f"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-002_spread.json",
+      "bytes": 51098,
+      "sha256": "1fbfb206fcfdd5cc457eae0c952001bd2d9ba1d772712a42eb5a38716eed3c6c"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-003_early.json",
+      "bytes": 50881,
+      "sha256": "937a286e95cc0e9f4208583e97df4f321072e1b819d7e488668f5fb8443bb8e8"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-003_late.json",
+      "bytes": 50671,
+      "sha256": "8598e4ae0300f67bf1e2fb87c5ca732f5e403d0c38f312e16da454a4bf3ebdfd"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-003_spread.json",
+      "bytes": 51163,
+      "sha256": "e3731a2ad0b3fc320488d786a30e178ca79fb148310eca2d6a469e76e23753f3"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-004_early.json",
+      "bytes": 50958,
+      "sha256": "243a4b58d9be4fc9f252b466cc095306e3c9048e4a9e88a71753bcf2e8f36737"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-004_late.json",
+      "bytes": 50697,
+      "sha256": "f4f80cc93718fd03d922150344e506833f206a4f687191cee0f9a18d3cc49ccb"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-004_spread.json",
+      "bytes": 51193,
+      "sha256": "f16f9562d694f5f344f16bd283cdee755a698a23945a43ebdd1aa3241db8fe22"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-005_early.json",
+      "bytes": 50866,
+      "sha256": "f9fc062a9a26c4bf405da8fc3b3976b267dc57d47754b184621faff568c0a0ae"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-005_late.json",
+      "bytes": 50638,
+      "sha256": "861f3a77f3529d0ed39ba55b734130e0a02fc74a99a57fa8b9fb6d12c280ccb5"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-005_spread.json",
+      "bytes": 50998,
+      "sha256": "c45476c6caecf824b5ff3b24621975bc4abf17796ad154f8e8d4d8a65450b159"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-006_early.json",
+      "bytes": 50683,
+      "sha256": "0329875792947958522e62c1285b391d1e600b5758c30c48c03420ebd3a137cc"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-006_late.json",
+      "bytes": 50436,
+      "sha256": "9021b12a1f4520e34b9423ec0ae694cc02e8ce01e7c89cfb17b8f1b0b5840c2e"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-006_spread.json",
+      "bytes": 50934,
+      "sha256": "bd45f8d83bdef46a1cb4bcfb0edc3ac99c52250086a272c03137db9937159e7f"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-007_early.json",
+      "bytes": 50908,
+      "sha256": "095c1677e5c972df0bbe19b73b27a3763645464905687f0f16d2aa209b7f892a"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-007_late.json",
+      "bytes": 50661,
+      "sha256": "0a6fef67eae768d8a00cc1d3d5ed6ae01c225f757f50579380d23f85101b5ba8"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-007_spread.json",
+      "bytes": 51163,
+      "sha256": "1f490d638db6a8776c0e4a3155a9d4de84426677b2cb0d9d7f410917870ee003"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-008_early.json",
+      "bytes": 50766,
+      "sha256": "2c197e852b8ed171888d4e9e59236f3d8af73699a19b9ec90ebaa2c94ca9080b"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-008_late.json",
+      "bytes": 50513,
+      "sha256": "db99e12dd1ee4a4ed6370a2dd0644e2759c47b012a2f661984e8851412238a36"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-008_spread.json",
+      "bytes": 50949,
+      "sha256": "e9fbc7e46f0f993e16ddfd57585d58fd9bf76efee5ed1a8facbf53dd8432d380"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-009_early.json",
+      "bytes": 50872,
+      "sha256": "b0dd5f7a6af64ee8f361f5fdcb4d25ffd6e12bfdd258ed0cc4d98b1627a8647f"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-009_late.json",
+      "bytes": 50662,
+      "sha256": "1e8604ec83ce28b0428d279035a67c680ca764508a2358c4a84956d85287441f"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-009_spread.json",
+      "bytes": 51171,
+      "sha256": "3a2659d3969ffa4183fde283fdebbee6bf9ccb05daa7e3d61abe9db8916e032b"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-010_early.json",
+      "bytes": 51150,
+      "sha256": "93881f275a57b19325636a487e90f932e431ac0657099f4dd65fbc1bbf845eda"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-010_late.json",
+      "bytes": 50896,
+      "sha256": "dbdf9eb25814bcb350b2659a10eb5b8590873be9099e4b7aff4bbb49c8fe44d3"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-010_spread.json",
+      "bytes": 51407,
+      "sha256": "bdbe9078ab23a748daef1a6879f939e388520bce08f9b9d7c24ecb6aa06a93a0"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-011_early.json",
+      "bytes": 50663,
+      "sha256": "69df881ae741f925ff3bc1629d33f7a10262b8d57dbdf13b1ec460aaaefc1fb8"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-011_late.json",
+      "bytes": 50462,
+      "sha256": "0b7b9b35f63dca6294637bab92950f6861d5a0931e81dd3c468a5c31f4afde42"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-011_spread.json",
+      "bytes": 50962,
+      "sha256": "7fa958efa7f7f6b0ea5bfa48257bdba43fba9f5bd837762b432270fd638c2b9c"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-012_early.json",
+      "bytes": 50887,
+      "sha256": "8d2145338fe51266c4fa4f8b000f7c69b658dd9481b9e378b85eb5b37e3a98f8"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-012_late.json",
+      "bytes": 50663,
+      "sha256": "2aca029890a73621396dec0aa408758b12052ab8912f780dab0732b02ee1dfe9"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-012_spread.json",
+      "bytes": 51174,
+      "sha256": "98cdba16474e259ec1b3151492568b4eafeba3c3eda4af8bfbfe26f7ed0a6761"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-013_early.json",
+      "bytes": 50901,
+      "sha256": "0719bb3806b6f238bc205d5c0ed8808593c1fea5c8378da8342b99cafa55f83e"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-013_late.json",
+      "bytes": 50866,
+      "sha256": "fcf87a421e4a23236100d6c7958c8c0393b44b5dc2ba62a5a30d259cf2a2d0f1"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-013_spread.json",
+      "bytes": 51196,
+      "sha256": "4439e4eaa29bcce21e1f07ded98005de16c769bbdb5cc44dd8ea4d11df08720b"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-014_early.json",
+      "bytes": 50685,
+      "sha256": "089eb7b44d9938585cccbff79e07600a54abd2588457327b79e7c0b05539ecd0"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-014_late.json",
+      "bytes": 50644,
+      "sha256": "5842a0405d8a0f90803908428d93c698787bd6a671f48f7d1fc20935993239a7"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-014_spread.json",
+      "bytes": 51143,
+      "sha256": "f5413fe069c26f0f69e189535c55da17ae615487194d596e758b01fdc42f6745"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-015_early.json",
+      "bytes": 50705,
+      "sha256": "cac796078a6067fc6029ff28d3b82536d50933e2afef7bf3800bfc712da6601e"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-015_late.json",
+      "bytes": 50676,
+      "sha256": "b59aa4df1127644456bbf0bf0ae4dae8e1f5905d52a30ed375f509c7c899f846"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-015_spread.json",
+      "bytes": 50994,
+      "sha256": "9d9b4822b29f9e691e5282551018bcdc93ba61819994d17ccb0dea83d6545c66"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-016_early.json",
+      "bytes": 51116,
+      "sha256": "0c62fdd47a5b6b0effca93d0eea38e3166394d803309bf1b89c0389e0ade856f"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-016_late.json",
+      "bytes": 50868,
+      "sha256": "9a06285b42ca28e3b444d378c5ec2956274b675ad87b3764e92c22026652a075"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-016_spread.json",
+      "bytes": 51373,
+      "sha256": "139fe318c3b0bb47c48e452612b287e760f1e88aab11fd17ac125f608ee7d24c"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-017_early.json",
+      "bytes": 50838,
+      "sha256": "1b4d668c2b2fca2ea1928b65747709cd065231ac737d9477b11452b09a4fb9f9"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-017_late.json",
+      "bytes": 50640,
+      "sha256": "64df4bb73fc1e77437eae66c327544018cbabbee80331637b60be57785e77a83"
+    },
+    {
+      "path": "data/raw/episodes/gpt-4.1-nano-2025-04-14_heldout-017_spread.json",
+      "bytes": 51149,
+      "sha256": "caba782c1e8ef9ddf9bfafb1678808de4e43af5e487062da620e7b040d8abac3"
+    },
+    {
+      "path": "data/raw/pilot.jsonl",
+      "bytes": 208853,
+      "sha256": "da2012c8d9adbcb023d569e0949332982ef645d5a7cb1776b511cabf2d55c087"
+    },
+    {
+      "path": "data/raw/trajectories.jsonl",
+      "bytes": 29064017,
+      "sha256": "3a52769abc30515e7bf7168c2754c7076dcd86d0151a0c00fb5382e36a241774"
+    },
+    {
+      "path": "figures/01_bifurcation.pdf",
+      "bytes": 27782,
+      "sha256": "e9c7d02edd0a998c747b5e3f6df1c5182eba97a5633ad760f19c5aef6e665846"
+    },
+    {
+      "path": "figures/01_bifurcation.png",
+      "bytes": 171053,
+      "sha256": "64420e5ddba2aaea096cfb2c21ceaaf375c14899186fdf9e5da1671e44813149"
+    },
+    {
+      "path": "figures/02_finite_population.pdf",
+      "bytes": 32264,
+      "sha256": "d67daca426465b176718ccfc3c5f5a6da98ec95690f31bd2220af75c3826b522"
+    },
+    {
+      "path": "figures/02_finite_population.png",
+      "bytes": 203238,
+      "sha256": "2e2801f9d63e6544d84b8b043ae7e41974ee3f1ef2ecd47825d1290910d44bb3"
+    },
+    {
+      "path": "figures/03_capacity_and_order.pdf",
+      "bytes": 27514,
+      "sha256": "698e6b32ba0a8d9abfac83d05d6c6338285503f48374b6af2194e7c1f1747fa0"
+    },
+    {
+      "path": "figures/03_capacity_and_order.png",
+      "bytes": 105424,
+      "sha256": "a98c5db023a7acdea7ffa91593d99f889940b7ff7f1953abf25ba325f887b364"
+    },
+    {
+      "path": "figures/04_calibrated_response.pdf",
+      "bytes": 27122,
+      "sha256": "8c265230c0a2876b41a2179d89bcb4b4953bd64b87e0b0913e65d749149d47ec"
+    },
+    {
+      "path": "figures/04_calibrated_response.png",
+      "bytes": 160740,
+      "sha256": "0449c27994cc9e4b28fa3f73f6048f06eac81020aa38b8c43e196d8c64170117"
+    },
+    {
+      "path": "figures/05_live_schedules.pdf",
+      "bytes": 33618,
+      "sha256": "51a0e366522f627bf9464309b6bf399cc83d2438f69e0e7a3fa7aad784da997b"
+    },
+    {
+      "path": "figures/05_live_schedules.png",
+      "bytes": 312217,
+      "sha256": "b37cb2ac20c7c76771fa93660b09c863b352c008c1760635b3476064863161cd"
+    },
+    {
+      "path": "output/arxiv-source.tar.gz",
+      "bytes": 149149,
+      "sha256": "2f2f53df5358bffa598c11a8d94712ba1dea16b4bb4c19b657060cb018665d68"
+    },
+    {
+      "path": "output/pdf/verification-pulses.pdf",
+      "bytes": 273292,
+      "sha256": "b931621e51a4b40550caaea31ac53a4ea56d6279800a7b025e676fab6c14e01e"
+    },
+    {
+      "path": "paper/generated.tex",
+      "bytes": 3614,
+      "sha256": "acdcf93e1301958156155a4fdf9f6758f53aacc1a1cf6fee56b02ac00bc5f3cb"
+    },
+    {
+      "path": "paper/main.tex",
+      "bytes": 53480,
+      "sha256": "6128504101251c12062ca42613311908c86a8f968251c453688b2d9955b14bb8"
+    },
+    {
+      "path": "protocol/amendment_01.md",
+      "bytes": 1438,
+      "sha256": "2617bf5db62ebc54628c2354d6ff65311974965f0a6f79bb9334db6fcf166643"
+    },
+    {
+      "path": "protocol/correction_02.md",
+      "bytes": 420,
+      "sha256": "77ba4b88029a6e35161d10c67a5a240a14e217fed28b02b482986e6a2d52295c"
+    },
+    {
+      "path": "protocol/diagnostic_03.md",
+      "bytes": 981,
+      "sha256": "b745fd829ef5636adb1608d3fc35c9f410f385eef05c8b9b7cf14ec7649d7755"
+    },
+    {
+      "path": "protocol/literature_review.md",
+      "bytes": 5473,
+      "sha256": "99e3bfccd7f50b6f1281a43e07f379101213d4ec338491aad0d17e75d70a92a4"
+    },
+    {
+      "path": "protocol/research_plan.md",
+      "bytes": 4994,
+      "sha256": "1e462c0ffcfd32e260ce5718c50d185e9540b006b88793c7d76090c8f1d58b53"
+    },
+    {
+      "path": "protocol/source_manifest.json",
+      "bytes": 2710,
+      "sha256": "2bad36d0f584f1c1f278557820c874643f993ddc7b463947c5e0a7cb161baae5"
+    },
+    {
+      "path": "protocol/theory_notes.md",
+      "bytes": 3332,
+      "sha256": "9d414b38066db91ecc4279d804923d81ae0bb612d07d8cc970c3017cbcd0a1bf"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 458,
+      "sha256": "0bf57f541a68c1b2f5a5ee4ace623385cf9c0d0a05d5e87ac51080a007c9d19c"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 438,
+      "sha256": "f1b307361b8faa4d291ba44002ff815feac4b5349abe7403f6be8e28fee5b3fc"
+    },
+    {
+      "path": "scripts/analyze.py",
+      "bytes": 15749,
+      "sha256": "7fc35f86199ee3708150241cd947a6b01e0e3f457a52adb2103c08d998e9bb1f"
+    },
+    {
+      "path": "scripts/audit_raw.py",
+      "bytes": 7061,
+      "sha256": "a5a52440c025b01028c1e48707943ea1cdade8c026138f05efb443e66bddb858"
+    },
+    {
+      "path": "scripts/audit_tails.py",
+      "bytes": 2142,
+      "sha256": "60ab7090b34f98e9e689625374243343f385b24469b812b5d8946110d1f1f326"
+    },
+    {
+      "path": "scripts/build_paper.py",
+      "bytes": 1554,
+      "sha256": "6d0ee3b1aae6ca907ddf611a82b3f8448011d9303306b09f30b7b4d2a0023fea"
+    },
+    {
+      "path": "scripts/make_manifest.py",
+      "bytes": 776,
+      "sha256": "318ae369f298fe5d9c70302355d5f2c9bff7af24d4db2ad60d4edaacfcc87fae"
+    },
+    {
+      "path": "scripts/run_calibration.py",
+      "bytes": 1880,
+      "sha256": "6f45d56eac18b2ba86dd630f2bc30d23170bc4ba24ef433bee76fc1730492efb"
+    },
+    {
+      "path": "scripts/run_trajectories.py",
+      "bytes": 3038,
+      "sha256": "fea91c285d9d2b54d8fd56a68631c8ace55fbb63b06efd7fabcb8d5f2bee1332"
+    },
+    {
+      "path": "scripts/write_paper_tables.py",
+      "bytes": 4849,
+      "sha256": "e90372c6095e70a091f95b1a46cea163e2ec0f7f8a1d8a86f90b5b94e2f38324"
+    },
+    {
+      "path": "src/verification_pulses/__init__.py",
+      "bytes": 69,
+      "sha256": "41e33c354e50322753cd2d42016fd2c4153c69c484d876111c7daa486b991c36"
+    },
+    {
+      "path": "src/verification_pulses/api.py",
+      "bytes": 4444,
+      "sha256": "68605bdc544351e04a02bc5c73bae4d097226e8fe7162b20f494f9347fb57c8f"
+    },
+    {
+      "path": "src/verification_pulses/budget.py",
+      "bytes": 1742,
+      "sha256": "5bd098d2f3cd0722f0ebc1b491486b04517502efdd455fb93bda991f171b00a0"
+    },
+    {
+      "path": "src/verification_pulses/dynamics.py",
+      "bytes": 5634,
+      "sha256": "64315424b4c552131f33fabc40ee3ae12cacf1931effd05c9acfdf7fe82a1a79"
+    },
+    {
+      "path": "src/verification_pulses/tasks.py",
+      "bytes": 1973,
+      "sha256": "041d10831742afe4f0d822fc0ba0a47cb223bce6184afdbe37a60278e71fef84"
+    },
+    {
+      "path": "submission/arxiv-metadata.json",
+      "bytes": 2028,
+      "sha256": "88fe0fe853052abef7ff5b4b7f7293ce842635d911b31d9a575e401e47674823"
+    },
+    {
+      "path": "submission/ds27-abstract.txt",
+      "bytes": 1374,
+      "sha256": "ed0104ab2e96a7a492d97ccbe05da7d790586692f86902a5ea99db1361be6014"
+    },
+    {
+      "path": "submission/status.md",
+      "bytes": 1958,
+      "sha256": "a2508af81b15d79393d48c774525a9bcdd64d5efa29dac644c5b6a6201dc10e5"
+    },
+    {
+      "path": "tests/test_budget.py",
+      "bytes": 954,
+      "sha256": "668fcba5286a307559ceeec11cbbcef70487f8151e1263eccb7a3914add08464"
+    },
+    {
+      "path": "tests/test_dynamics.py",
+      "bytes": 4680,
+      "sha256": "0969dfd002cb1dfdb0cd5d6792c4eb178d4a4300164a8f7d7131bd2448776894"
+    }
+  ]
+}

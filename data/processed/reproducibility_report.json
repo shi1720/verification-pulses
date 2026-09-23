@@ -1,0 +1,16 @@
+{
+  "tests_passed": 11,
+  "raw_terminal_requests": 13392,
+  "replayed_episodes": 108,
+  "replayed_ordinary_updates": 12528,
+  "replayed_verified_updates": 1296,
+  "independent_csv_matches": 11,
+  "portable_archive_pages": 18,
+  "portable_archive_text_matches": true,
+  "final_pdf_visual_pages_checked": 18,
+  "figures": 5,
+  "tables": 7,
+  "bibliographic_references": 13,
+  "credentials_in_public_files": false,
+  "temporary_api_key_removed": true
+}

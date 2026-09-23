@@ -1,0 +1,333 @@
+{
+  "budgets": [
+    {
+      "n": 16,
+      "i0": 14,
+      "deterministic_budget": 9,
+      "risk_at_deterministic": 0.4763163757054306,
+      "exact_95_budget": 23,
+      "asymptotic_95_budget": 18.926663101667796,
+      "risk_at_075n": 0.2967183741375092
+    },
+    {
+      "n": 64,
+      "i0": 56,
+      "deterministic_budget": 36,
+      "risk_at_deterministic": 0.484283986921212,
+      "exact_95_budget": 60,
+      "asymptotic_95_budget": 55.761031417269116,
+      "risk_at_075n": 0.17258328866090222
+    },
+    {
+      "n": 256,
+      "i0": 224,
+      "deterministic_budget": 144,
+      "risk_at_deterministic": 0.48313260913206557,
+      "exact_95_budget": 187,
+      "asymptotic_95_budget": 183.15288369027235,
+      "risk_at_075n": 0.03366825238510286
+    },
+    {
+      "n": 1024,
+      "i0": 896,
+      "deterministic_budget": 574,
+      "risk_at_deterministic": 0.48981756292824824,
+      "exact_95_budget": 657,
+      "asymptotic_95_budget": 652.8290508034811,
+      "risk_at_075n": 0.0001417423476519599
+    },
+    {
+      "n": 4096,
+      "i0": 3584,
+      "deterministic_budget": 2293,
+      "risk_at_deterministic": 0.49548562982610617,
+      "exact_95_budget": 2456,
+      "asymptotic_95_budget": 2451.751235298708,
+      "risk_at_075n": 2.1545038291780457e-13
+    }
+  ],
+  "params": {
+    "gpt-4.1-mini-2025-04-14": [
+      0.0,
+      0.020833333333333332,
+      0.9895833333333334,
+      1.0
+    ],
+    "gpt-4.1-nano-2025-04-14": [
+      0.08333333333333333,
+      0.3333333333333333,
+      0.625,
+      0.9375
+    ]
+  },
+  "live": {
+    "summaries": [
+      {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "schedule": "early",
+        "n_episodes": 18,
+        "terminal_error": 0.3368055555555556,
+        "integrated_error": 0.40283203125,
+        "all_correct": 11,
+        "all_wrong": 6,
+        "invalid_calls": 0,
+        "llm_calls": 2088,
+        "checks": 216
+      },
+      {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "schedule": "spread",
+        "n_episodes": 18,
+        "terminal_error": 0.5972222222222222,
+        "integrated_error": 0.7664930555555556,
+        "all_correct": 3,
+        "all_wrong": 1,
+        "invalid_calls": 0,
+        "llm_calls": 2088,
+        "checks": 216
+      },
+      {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "schedule": "late",
+        "n_episodes": 18,
+        "terminal_error": 0.4548611111111111,
+        "integrated_error": 0.9463975694444444,
+        "all_correct": 0,
+        "all_wrong": 0,
+        "invalid_calls": 0,
+        "llm_calls": 2088,
+        "checks": 216
+      },
+      {
+        "model": "gpt-4.1-nano-2025-04-14",
+        "schedule": "early",
+        "n_episodes": 18,
+        "terminal_error": 0.5138888888888888,
+        "integrated_error": 0.5040690104166666,
+        "all_correct": 8,
+        "all_wrong": 7,
+        "invalid_calls": 0,
+        "llm_calls": 2088,
+        "checks": 216
+      },
+      {
+        "model": "gpt-4.1-nano-2025-04-14",
+        "schedule": "spread",
+        "n_episodes": 18,
+        "terminal_error": 0.4236111111111111,
+        "integrated_error": 0.584716796875,
+        "all_correct": 6,
+        "all_wrong": 1,
+        "invalid_calls": 0,
+        "llm_calls": 2088,
+        "checks": 216
+      },
+      {
+        "model": "gpt-4.1-nano-2025-04-14",
+        "schedule": "late",
+        "n_episodes": 18,
+        "terminal_error": 0.3055555555555556,
+        "integrated_error": 0.7261013454861112,
+        "all_correct": 4,
+        "all_wrong": 0,
+        "invalid_calls": 0,
+        "llm_calls": 2088,
+        "checks": 216
+      }
+    ],
+    "contrasts": [
+      {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "contrast": "early-spread",
+        "mean": -0.2604166666666667,
+        "ci_low": -0.5434244791666666,
+        "ci_high": 0.034722222222222224,
+        "confidence": 0.9875,
+        "tasks": 18
+      },
+      {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "contrast": "late-spread",
+        "mean": -0.1423611111111111,
+        "ci_low": -0.33161892361111106,
+        "ci_high": 0.07467447916666793,
+        "confidence": 0.9875,
+        "tasks": 18
+      },
+      {
+        "model": "gpt-4.1-nano-2025-04-14",
+        "contrast": "early-spread",
+        "mean": 0.09027777777777778,
+        "ci_low": -0.07814670138888886,
+        "ci_high": 0.22916666666666666,
+        "confidence": 0.9875,
+        "tasks": 18
+      },
+      {
+        "model": "gpt-4.1-nano-2025-04-14",
+        "contrast": "late-spread",
+        "mean": -0.11805555555555555,
+        "ci_low": -0.2951388888888889,
+        "ci_high": 0.06597222222222222,
+        "confidence": 0.9875,
+        "tasks": 18
+      }
+    ],
+    "predictions": [
+      {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "schedule": "early",
+        "terminal_predicted": 0.3160532127830136,
+        "terminal_observed": 0.3368055555555556,
+        "trajectory_mae": 0.03885848037550549,
+        "all_correct_predicted": 0.6165768985287305,
+        "all_correct_observed": 0.6111111111111112,
+        "all_wrong_predicted": 0.25769371306941347,
+        "all_wrong_observed": 0.3333333333333333
+      },
+      {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "schedule": "spread",
+        "terminal_predicted": 0.6874874907976325,
+        "terminal_observed": 0.5972222222222222,
+        "trajectory_mae": 0.02467928929239495,
+        "all_correct_predicted": 0.08466150371762468,
+        "all_correct_observed": 0.16666666666666666,
+        "all_wrong_predicted": 0.05022910554419781,
+        "all_wrong_observed": 0.05555555555555555
+      },
+      {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "schedule": "late",
+        "terminal_predicted": 0.4576978997946703,
+        "terminal_observed": 0.4548611111111111,
+        "trajectory_mae": 0.0076924683684482685,
+        "all_correct_predicted": 0.0041680997853795814,
+        "all_correct_observed": 0.0,
+        "all_wrong_predicted": 0.0,
+        "all_wrong_observed": 0.0
+      },
+      {
+        "model": "gpt-4.1-nano-2025-04-14",
+        "schedule": "early",
+        "terminal_predicted": 0.4338464572521752,
+        "terminal_observed": 0.5138888888888888,
+        "trajectory_mae": 0.06642254388835495,
+        "all_correct_predicted": 0.03964719018824395,
+        "all_correct_observed": 0.4444444444444444,
+        "all_wrong_predicted": 0.023685292186040905,
+        "all_wrong_observed": 0.3888888888888889
+      },
+      {
+        "model": "gpt-4.1-nano-2025-04-14",
+        "schedule": "spread",
+        "terminal_predicted": 0.35747365353225713,
+        "terminal_observed": 0.4236111111111111,
+        "trajectory_mae": 0.039646437885015776,
+        "all_correct_predicted": 0.046110160645810465,
+        "all_correct_observed": 0.3333333333333333,
+        "all_wrong_predicted": 0.000909043367309166,
+        "all_wrong_observed": 0.05555555555555555
+      },
+      {
+        "model": "gpt-4.1-nano-2025-04-14",
+        "schedule": "late",
+        "terminal_predicted": 0.28279101789483413,
+        "terminal_observed": 0.3055555555555556,
+        "trajectory_mae": 0.02846733768263224,
+        "all_correct_predicted": 0.039705796820036374,
+        "all_correct_observed": 0.2222222222222222,
+        "all_wrong_predicted": 0.0,
+        "all_wrong_observed": 0.0
+      }
+    ]
+  },
+  "monte_carlo": [
+    {
+      "schedule": "early",
+      "replicates": 50000,
+      "mc_mean": 0.29523625,
+      "mc_se": 0.001973303847556236,
+      "exact_mean": 0.29765637258258226,
+      "z_error": -1.2264317963902998
+    },
+    {
+      "schedule": "spread",
+      "replicates": 50000,
+      "mc_mean": 0.6937925,
+      "mc_se": 0.0013935487714603209,
+      "exact_mean": 0.6919347686788788,
+      "z_error": 1.3330938673746378
+    },
+    {
+      "schedule": "late",
+      "replicates": 50000,
+      "mc_mean": 0.4575525,
+      "mc_se": 0.00035178710885761454,
+      "exact_mean": 0.4579375361499571,
+      "z_error": -1.0945146660077034
+    }
+  ],
+  "usage": [
+    {
+      "phase": "calibration",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "attempts": 385,
+      "requests": 384,
+      "valid": 384,
+      "input_tokens": 67840,
+      "output_tokens": 1920,
+      "estimated_uncached_usd": 0.030208
+    },
+    {
+      "phase": "calibration",
+      "model": "gpt-4.1-nano-2025-04-14",
+      "attempts": 384,
+      "requests": 384,
+      "valid": 384,
+      "input_tokens": 67840,
+      "output_tokens": 1920,
+      "estimated_uncached_usd": 0.007552
+    },
+    {
+      "phase": "pilot",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "attempts": 49,
+      "requests": 48,
+      "valid": 48,
+      "input_tokens": 8480,
+      "output_tokens": 240,
+      "estimated_uncached_usd": 0.003776
+    },
+    {
+      "phase": "pilot",
+      "model": "gpt-4.1-nano-2025-04-14",
+      "attempts": 48,
+      "requests": 48,
+      "valid": 48,
+      "input_tokens": 8480,
+      "output_tokens": 240,
+      "estimated_uncached_usd": 0.000944
+    },
+    {
+      "phase": "trajectories",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "attempts": 6268,
+      "requests": 6264,
+      "valid": 6264,
+      "input_tokens": 1106640,
+      "output_tokens": 31320,
+      "estimated_uncached_usd": 0.492768
+    },
+    {
+      "phase": "trajectories",
+      "model": "gpt-4.1-nano-2025-04-14",
+      "attempts": 6265,
+      "requests": 6264,
+      "valid": 6264,
+      "input_tokens": 1106640,
+      "output_tokens": 31320,
+      "estimated_uncached_usd": 0.123192
+    }
+  ]
+}

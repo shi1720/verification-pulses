@@ -26,6 +26,8 @@ def test_equilibria_and_full_peak_fuel():
     for x0 in [.6,.875,1.]:
         assert minimum_fuel(majority3,x0,.5)==pytest.approx(log(2*x0))
     assert minimum_fuel(majority3,.95,.5,peak=.1)==np.inf
+    assert minimum_fuel(majority3,.95,.5,peak=1/9)==np.inf
+    assert np.isfinite(minimum_fuel(majority3,.95,.5,peak=.112))
 
 
 def test_independent_exhaustive_slot_enumeration():
@@ -91,3 +93,31 @@ def test_critical_window_converges_to_exact():
         errors.append(np.max(abs(exact-critical_window(n,ks,7/8))))
     assert errors[2]<errors[1]<errors[0]
     assert errors[-1]<.025
+
+
+def test_asymmetric_boundary_and_fixed_count_variance():
+    # The theorem is not confined to a symmetric 1/2 boundary. This cubic is
+    # a valid [0,1]-valued response with its sole interior crossing at b.
+    b=.37;c=1.4;x0=.83
+    def response(x):return x+c*x*(1-x)*(x-b)
+    slope=c*b*(1-b)
+    errors=[]
+    for n in [256,1024,4096]:
+        ks=np.arange(int(n*log(x0/b)-np.sqrt(n)),int(n*log(x0/b)+2*np.sqrt(n)))
+        exact=pulse_risks(n,int(n*x0),int(ks[-1]),response)[ks]
+        errors.append(np.max(abs(exact-critical_window(n,ks,x0,b,slope))))
+    assert errors[2]<errors[1]<errors[0]
+    assert errors[-1]<.03
+    n=19;i0=16;k=13
+    p=pulse_distribution(n,i0,k);r=np.arange(n+1);survival=(1-1/n)**k
+    variance=i0*survival*(1-survival)+i0*(i0-1)*((1-2/n)**k-survival**2)
+    assert p@r**2-(p@r)**2==pytest.approx(variance,abs=1e-12)
+
+
+def test_identical_drift_different_innovation_variance():
+    x=sp.symbols('x');g=3*x**2-2*x**3
+    ar=(1-x)*g;dr=x*(1-g)
+    af=x**2*(1-x);df=x*(1-x)**2
+    assert sp.expand(ar-dr-af+df)==0
+    assert (ar+dr).subs(x,sp.Rational(1,2))==sp.Rational(1,2)
+    assert (af+df).subs(x,sp.Rational(1,2))==sp.Rational(1,4)

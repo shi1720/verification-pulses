@@ -1,0 +1,55 @@
+% Generated from data/processed; do not edit numerical values manually.
+\newcommand{\DetRecoverySixteen}{52.37}
+\newcommand{\MaxMCZ}{1.33}
+\newcommand{\BudgetRows}{16 & 9 & 0.476 & 23 & 18.93\\
+64 & 36 & 0.484 & 60 & 55.76\\
+256 & 144 & 0.483 & 187 & 183.15\\
+1024 & 574 & 0.490 & 657 & 652.83\\
+4096 & 2293 & 0.495 & 2456 & 2451.75\\}
+\newcommand{\LiveRows}{Mini & Early & 0.337 & 0.403 & 11 & 6\\
+Mini & Spread & 0.597 & 0.766 & 3 & 1\\
+Mini & Late & 0.455 & 0.946 & 0 & 0\\
+Nano & Early & 0.514 & 0.504 & 8 & 7\\
+Nano & Spread & 0.424 & 0.585 & 6 & 1\\
+Nano & Late & 0.306 & 0.726 & 4 & 0\\}
+\newcommand{\ContrastRows}{Mini & early minus spread & -0.260 & -0.543 & 0.035\\
+Mini & late minus spread & -0.142 & -0.332 & 0.075\\
+Nano & early minus spread & 0.090 & -0.078 & 0.229\\
+Nano & late minus spread & -0.118 & -0.295 & 0.066\\}
+\newcommand{\LiveResultsText}{For mini, mean terminal wrong fractions were 0.337 (early), 0.597 (spread), and 0.455 (late). For nano, mean terminal wrong fractions were 0.514 (early), 0.424 (spread), and 0.306 (late). All four adjusted intervals include zero. The observed means therefore do not establish a schedule advantage at the declared family level. The direction of the early-minus-spread mean also differs between models. Integrated error and terminal error measure different objectives; in particular, the late pulse benefits from acting immediately before the terminal measurement.}
+\newcommand{\PredictionText}{Across the six model--schedule combinations, mean absolute trajectory discrepancies ranged from 0.008 to 0.066; absolute terminal discrepancies ranged from 0.003 to 0.090. Appendix~\ref{app:experiment} reports every comparison.}
+\newcommand{\PredictionTable}{\begin{table}[h]
+\centering\small
+\caption{Independently calibrated finite-state predictions and held-out means. MAE is averaged over the 129 recorded states.}
+\begin{tabular}{llrrr}\toprule
+Model & Schedule & Predicted final & Observed final & Trajectory MAE\\\midrule
+Mini & Early & 0.316 & 0.337 & 0.039\\
+Mini & Spread & 0.687 & 0.597 & 0.025\\
+Mini & Late & 0.458 & 0.455 & 0.008\\
+Nano & Early & 0.434 & 0.514 & 0.066\\
+Nano & Spread & 0.357 & 0.424 & 0.040\\
+Nano & Late & 0.283 & 0.306 & 0.028\\
+\bottomrule\end{tabular}\end{table}
+\begin{table}[htb]
+\centering\small
+\caption{Post-analysis terminal-distribution audit. Entries are endpoint probabilities, not eventual absorption probabilities. Observed values are proportions of 18 episodes.}
+\begin{tabular}{llrrrr}\toprule
+& & \multicolumn{2}{c}{All correct} & \multicolumn{2}{c}{All wrong}\\
+Model & Schedule & Predicted & Observed & Predicted & Observed\\\midrule
+Mini & Early & 0.617 & 0.611 & 0.258 & 0.333\\
+Mini & Spread & 0.085 & 0.167 & 0.050 & 0.056\\
+Mini & Late & 0.004 & 0.000 & 0.000 & 0.000\\
+Nano & Early & 0.040 & 0.444 & 0.024 & 0.389\\
+Nano & Spread & 0.046 & 0.333 & 0.001 & 0.056\\
+Nano & Late & 0.040 & 0.222 & 0.000 & 0.000\\
+\bottomrule\end{tabular}\end{table}}
+\newcommand{\TailLower}{0.030}
+\newcommand{\TailUpper}{0.235}
+\newcommand{\UsageText}{There were 13,392 terminal requests, 13,392 valid structured answers, and 0 invalid terminal outputs. The logs contain 7 additional transport attempts. These attempts are included in Table~\ref{tab:usage}.}
+\newcommand{\UsageRows}{Calibration & Mini & 385 & 384 & 67,840 & 1,920\\
+Calibration & Nano & 384 & 384 & 67,840 & 1,920\\
+Pilot & Mini & 49 & 48 & 8,480 & 240\\
+Pilot & Nano & 48 & 48 & 8,480 & 240\\
+Trajectories & Mini & 6,268 & 6,264 & 1,106,640 & 31,320\\
+Trajectories & Nano & 6,265 & 6,264 & 1,106,640 & 31,320\\}
+\newcommand{\EstimatedCost}{0.6584}

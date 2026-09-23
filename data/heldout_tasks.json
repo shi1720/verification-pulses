@@ -1,0 +1,272 @@
+[
+  {
+    "id": "heldout-000",
+    "domain": "feature",
+    "record": "R11720491",
+    "question": "What is the rollout state of feature R11720491?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R11720491",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "heldout-001",
+    "domain": "warehouse",
+    "record": "R12533893",
+    "question": "What is the dispatch state of warehouse batch R12533893?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R12533893",
+      "value": "held"
+    }
+  },
+  {
+    "id": "heldout-002",
+    "domain": "routing",
+    "record": "R99692004",
+    "question": "What is the active routing pool for service R99692004?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R99692004",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "heldout-003",
+    "domain": "feature",
+    "record": "R32762567",
+    "question": "What is the rollout state of feature R32762567?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R32762567",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "heldout-004",
+    "domain": "warehouse",
+    "record": "R17573532",
+    "question": "What is the dispatch state of warehouse batch R17573532?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R17573532",
+      "value": "released"
+    }
+  },
+  {
+    "id": "heldout-005",
+    "domain": "routing",
+    "record": "R22451090",
+    "question": "What is the active routing pool for service R22451090?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R22451090",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "heldout-006",
+    "domain": "feature",
+    "record": "R98300057",
+    "question": "What is the rollout state of feature R98300057?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R98300057",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "heldout-007",
+    "domain": "warehouse",
+    "record": "R68480887",
+    "question": "What is the dispatch state of warehouse batch R68480887?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R68480887",
+      "value": "held"
+    }
+  },
+  {
+    "id": "heldout-008",
+    "domain": "routing",
+    "record": "R92427987",
+    "question": "What is the active routing pool for service R92427987?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R92427987",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "heldout-009",
+    "domain": "feature",
+    "record": "R86767827",
+    "question": "What is the rollout state of feature R86767827?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R86767827",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "heldout-010",
+    "domain": "warehouse",
+    "record": "R72493921",
+    "question": "What is the dispatch state of warehouse batch R72493921?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R72493921",
+      "value": "released"
+    }
+  },
+  {
+    "id": "heldout-011",
+    "domain": "routing",
+    "record": "R54146606",
+    "question": "What is the active routing pool for service R54146606?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R54146606",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "heldout-012",
+    "domain": "feature",
+    "record": "R98753155",
+    "question": "What is the rollout state of feature R98753155?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R98753155",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "heldout-013",
+    "domain": "warehouse",
+    "record": "R90993573",
+    "question": "What is the dispatch state of warehouse batch R90993573?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R90993573",
+      "value": "held"
+    }
+  },
+  {
+    "id": "heldout-014",
+    "domain": "routing",
+    "record": "R43398388",
+    "question": "What is the active routing pool for service R43398388?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R43398388",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "heldout-015",
+    "domain": "feature",
+    "record": "R43120783",
+    "question": "What is the rollout state of feature R43120783?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R43120783",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "heldout-016",
+    "domain": "warehouse",
+    "record": "R26473502",
+    "question": "What is the dispatch state of warehouse batch R26473502?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R26473502",
+      "value": "held"
+    }
+  },
+  {
+    "id": "heldout-017",
+    "domain": "routing",
+    "record": "R34398135",
+    "question": "What is the active routing pool for service R34398135?",
+    "values": [
+      "violet",
+      "amber"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R34398135",
+      "value": "amber"
+    }
+  }
+]

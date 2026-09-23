@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "phases": {
+    "pilot": {
+      "terminal": 96,
+      "attempts": 97,
+      "invalid": 0,
+      "code_revisions": [
+        "not recorded in development pilot"
+      ]
+    },
+    "calibration": {
+      "terminal": 768,
+      "attempts": 769,
+      "invalid": 0,
+      "code_revisions": [
+        "d7247ff9e2563af1d1d3b22d7f620622f62efd3b"
+      ]
+    },
+    "trajectories": {
+      "terminal": 12528,
+      "attempts": 12533,
+      "invalid": 0,
+      "code_revisions": [
+        "d7247ff9e2563af1d1d3b22d7f620622f62efd3b"
+      ]
+    }
+  },
+  "episodes_replayed": 108,
+  "ordinary_updates_replayed": 12528,
+  "verified_updates_replayed": 1296,
+  "transport_retry_attempts": 7,
+  "distinct_task_records": 126
+}

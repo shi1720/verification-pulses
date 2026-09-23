@@ -1,0 +1,182 @@
+[
+  {
+    "id": "pilot-000",
+    "domain": "feature",
+    "record": "R52108202",
+    "question": "What is the rollout state of feature R52108202?",
+    "values": [
+      "disabled",
+      "enabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R52108202",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "pilot-001",
+    "domain": "warehouse",
+    "record": "R83977971",
+    "question": "What is the dispatch state of warehouse batch R83977971?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R83977971",
+      "value": "held"
+    }
+  },
+  {
+    "id": "pilot-002",
+    "domain": "routing",
+    "record": "R56708842",
+    "question": "What is the active routing pool for service R56708842?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R56708842",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "pilot-003",
+    "domain": "feature",
+    "record": "R44453834",
+    "question": "What is the rollout state of feature R44453834?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R44453834",
+      "value": "enabled"
+    }
+  },
+  {
+    "id": "pilot-004",
+    "domain": "warehouse",
+    "record": "R32562627",
+    "question": "What is the dispatch state of warehouse batch R32562627?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R32562627",
+      "value": "released"
+    }
+  },
+  {
+    "id": "pilot-005",
+    "domain": "routing",
+    "record": "R22181773",
+    "question": "What is the active routing pool for service R22181773?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R22181773",
+      "value": "amber"
+    }
+  },
+  {
+    "id": "pilot-006",
+    "domain": "feature",
+    "record": "R75482922",
+    "question": "What is the rollout state of feature R75482922?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R75482922",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "pilot-007",
+    "domain": "warehouse",
+    "record": "R50458777",
+    "question": "What is the dispatch state of warehouse batch R50458777?",
+    "values": [
+      "released",
+      "held"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R50458777",
+      "value": "released"
+    }
+  },
+  {
+    "id": "pilot-008",
+    "domain": "routing",
+    "record": "R80733425",
+    "question": "What is the active routing pool for service R80733425?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R80733425",
+      "value": "violet"
+    }
+  },
+  {
+    "id": "pilot-009",
+    "domain": "feature",
+    "record": "R80123654",
+    "question": "What is the rollout state of feature R80123654?",
+    "values": [
+      "enabled",
+      "disabled"
+    ],
+    "truth": 1,
+    "source": {
+      "record": "R80123654",
+      "value": "disabled"
+    }
+  },
+  {
+    "id": "pilot-010",
+    "domain": "warehouse",
+    "record": "R55545927",
+    "question": "What is the dispatch state of warehouse batch R55545927?",
+    "values": [
+      "held",
+      "released"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R55545927",
+      "value": "held"
+    }
+  },
+  {
+    "id": "pilot-011",
+    "domain": "routing",
+    "record": "R93761584",
+    "question": "What is the active routing pool for service R93761584?",
+    "values": [
+      "amber",
+      "violet"
+    ],
+    "truth": 0,
+    "source": {
+      "record": "R93761584",
+      "value": "amber"
+    }
+  }
+]
