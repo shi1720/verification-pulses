@@ -1,7 +1,8 @@
 # Submission status
 
-Recorded 23 September 2026. **Neither portal has received a final submission
-from this task. No acceptance or arXiv announcement is claimed.**
+Recorded 24 September 2026. **arXiv submission confirmed; moderation pending.
+SIAM DS27 submission remains unconfirmed. No acceptance or public arXiv
+announcement is claimed.**
 
 ## SIAM DS27
 
@@ -11,11 +12,15 @@ Speaker and sole author: Shivam Gupta, Independent Researcher.
 Ranked categories: Bifurcation; Probability and Stochastic Processes;
 Machine Learning and AI. The abstract is 1,373 characters including spaces.
 
-The portal is at its final preview. It requires creation of a password for
-editing the abstract before submission; that author-controlled step is pending.
-There is no confirmed abstract submission identifier yet.
-The author reported an error after attempting submission. The retained preview
-does not display the error; diagnosis awaits the exact message.
+The author encountered processing errors after final submission attempts in
+both the in-app browser and Chrome. On 24 September, the retained error page
+specifically displayed “CONFCODE is a required field.” That message may reflect
+lost form state; the cause of the earlier generic errors is not established.
+A fresh sign-in through the official DS27 entry point displayed no previously
+submitted abstract. The form was rebuilt in Chrome and the full preview checked.
+The final editing-password creation and submission step remains author-controlled.
+There is no confirmed abstract submission identifier. A support-email draft is
+prepared but has not been sent.
 
 DS27 is May 23–27, 2027 at Hilton Atlanta, Atlanta, Georgia, USA. The contributed
 abstract deadline is 23 November 2026, 11:59 p.m. Eastern. Presentations are
@@ -33,23 +38,17 @@ application or eligibility claim is part of this submission.
 
 ## arXiv
 
-**Paused at the author's request.** The draft uses Machine Learning (cs.LG)
-as its primary category. This is a defensible fit for the paper's language-model
-robustness, calibration, and verification-methodology study; arXiv's category
-description includes robustness, methodology, and ML applications.
-The author's existing cs.LG endorsement permitted the upload stage.
+**Submitted on 24 September 2026.** The portal displayed “Article submitted”
+and listed this paper with status “submitted.” Moderation and public announcement
+are pending; the internal submission receipt is not a public arXiv identifier.
 
+The primary category is Machine Learning (cs.LG). No cross-lists were added.
 The approved arXiv perpetual, non-exclusive distribution license is selected.
-All manuscript source files and five figures have been uploaded. arXiv compiled
-the paper successfully using pdfLaTeX / TeX Live 2025, and all 18 rendered pages
-were visually checked. Title, author, abstract, and repository link are saved.
-
-At final preview, arXiv blocked submission because the account already has the
-maximum three submissions in process. The portal states that this saved draft
-can be submitted after previous submissions are processed. No final submission
-has been received, no cross-lists have been added, and no public arXiv identifier
-has been assigned to this work. No further arXiv work is scheduled.
+All manuscript source files and five figures were uploaded. arXiv compiled the
+paper successfully using pdfLaTeX / TeX Live 2025, and all 18 rendered pages were
+visually checked. Title, author, abstract, and repository link were verified.
+The earlier account submission-limit block no longer prevented submission.
 
 Category scope: https://arxiv.org/category_taxonomy
 
-The repository preserves all other existing submissions unchanged.
+All other existing account submissions were left unchanged.

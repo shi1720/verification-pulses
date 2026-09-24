@@ -864,8 +864,8 @@
     },
     {
       "path": "submission/arxiv-metadata.json",
-      "bytes": 2240,
-      "sha256": "c4e3d7c03d5e5032f082bc861c48a8ea31382dde2bce494bf6c404cdfd79d2b9"
+      "bytes": 2193,
+      "sha256": "cdbaacd7084a431a8e81a21f1537a3cd2cb87c3393c5959a572c5824de5d3880"
     },
     {
       "path": "submission/ds27-abstract.txt",
@@ -874,8 +874,8 @@
     },
     {
       "path": "submission/status.md",
-      "bytes": 2865,
-      "sha256": "380b802869d0b7fa256263ae146b56a1a5a39ad5e69d563e388fef8950d02281"
+      "bytes": 2843,
+      "sha256": "8a7ff14cd40cc7119573cd8a2f62ff6c9577a4df6dc20ef819a77aad5843c248"
     },
     {
       "path": "tests/test_budget.py",
